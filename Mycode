@@ -1,0 +1,16 @@
+from random import *
+list=[1,2,3,4,5,6]
+n=0
+m=1
+t=0
+while m!=n :
+      print("Choice any number from 1-6 ")
+      n = int(input())
+      m = choice(list)
+      print("Computer chooses:",m)
+      if m==n:
+            print("Out")
+            print("Final score is ",t)
+      else:
+            t=t+n
+            print("Your score :",t)
